@@ -1,0 +1,41 @@
+.plans {
+    padding: 5.6vw;
+
+    h2 {
+        text-align: center;
+    }
+
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        @media (max-width: 768px) {
+            display: block;
+        }      
+        .button {
+            margin-top: 24px;
+        }
+
+        iframe {
+            width: 734px;
+            height: 414px;
+
+            @media (max-width: 1023px){
+                width: 734px;
+                height: 414px;
+                }
+
+            @media (max-width: 768px){
+                width: 340px;
+                height: 340px;
+            }
+
+            
+        } 
+    }
+    p {
+        text-align: center;       
+    }
+}
